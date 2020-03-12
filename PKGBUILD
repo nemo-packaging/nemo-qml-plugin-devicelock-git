@@ -3,13 +3,13 @@
 # Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
 
 pkgname=nemo-qml-plugin-devicelock-git
-pkgver=0.2.23.r0.gdd20dae
+pkgver=0.2.24.r0.gee510b9
 pkgrel=1
 pkgdesc="Device lock plugin for Nemo Mobile"
 arch=('x86_64' 'aarch64')
 url="https://git.sailfishos.org/mer-core/nemo-qml-plugin-devicelock"
 license=('GPL')
-depends=('qt5-base' 'nemo-keepalive' 'nemo-qml-plugin-dbus')
+depends=('qt5-base' 'nemo-qml-plugin-dbus')
 makedepends=('git')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
